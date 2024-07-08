@@ -1,0 +1,12 @@
+[dbconnection]
+    [dbconnection.user]
+        DBName = "ca-user"
+        Host = ""
+        Port = "6432"
+        MaxConn = 100
+        RequestTimeout = 1000 # in millisecond
+        MaxRetry = 2
+
+[redis]
+    [redis.User]
+        host = "locasfjll:6379"
